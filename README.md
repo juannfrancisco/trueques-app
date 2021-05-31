@@ -1,8 +1,16 @@
-# TruequesApp
+# Trueques App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+El origen del trueque, es casi tan antiguo como la historia de la humanidad. El trueque nace por el excedente de un producto, lo que lleva a intercambiar ese producto que sobra, por otro que se necesita y no se tiene. Estas fueron las primeras formas de comercio entre los hombres y se denominan ‘permutas’. No intermedia dinero en la transacción. 
 
-## Development server
+
+La aplicacion de Trueques permite a los usuarios intercambiar productos (usados o nuevos) con otros usuarios. 
+
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+
+
+
+
+## Servidor de Desarrollo
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
