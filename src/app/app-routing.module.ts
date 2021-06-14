@@ -1,3 +1,4 @@
+import { RegisterComponent } from './components/landing/register/register.component';
 import { HomeComponent } from './components/landing/home/home.component';
 import { LandingComponent } from './components/landing/landing/landing.component';
 import { NgModule } from '@angular/core';
@@ -8,7 +9,8 @@ const routes: Routes = [
   { path:"", redirectTo:"/landing/home", pathMatch:"full"},
   { path:"landing", component:LandingComponent, children:[
     {path:"home", component:HomeComponent},
-    {path:"login", component:LoginComponent}
+    {path:"login", component:LoginComponent},
+    {path:"register", component:RegisterComponent}
   ]}
 ];
 
